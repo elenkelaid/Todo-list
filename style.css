@@ -3,25 +3,25 @@
         width: 380px;
         margin: 0 auto;
     }
-    
+
     body {
         padding: 0;
         margin: 0;
         background-color: rgba(0, 0, 0, 0.1);
         font-family: sans-serif;
     }
-    
+
     header {
         width: 380px;
         height: 200px;
-        background-image: url('../images/garden.jpg');
+        background-image: url("images/garden.jpg");
         background-size: 100% 200%;
         background-repeat: no-repeat;
         border-radius: 15px 15px 0 0;
         position: relative;
         justify-content: center;
     }
-    
+
     h1 {
         min-height: 20vh;
         display: flex;
@@ -29,7 +29,7 @@
         align-items: center;
         color: white;
     }
-    
+
     h3 {
         position: absolute;
         bottom: 10px;
@@ -37,7 +37,7 @@
         color: #FFF;
         font-size: 25px;
     }
-    
+
     .list-container {
         background-color: rgb(212, 245, 212);
         background-size: 100% 200%;
@@ -59,7 +59,7 @@
         justify-content: center;
         align-items: center;
     }***/
-    
+
     form {
         /**min-height: 20vh;**/
         display: flex;
@@ -68,14 +68,14 @@
         font-size: 20px;
         border: none;
     }
-    
+
     form input {
         padding: 10px;
         font-size: 20px;
         border: none;
         background: white;
     }
-    
+
     form button {
         padding: 10px;
         font-size: 20px;
@@ -83,7 +83,7 @@
         background: white;
         color: #47cbff;
     }
-    
+
     .todo-container {
         width: 380px;
         height: 350px;
@@ -92,12 +92,12 @@
         font-size: 25px;
         border-radius: 0px 0px 15px 15px;
     }
-    
+
     .todo-container ul {
         padding: 0;
         margin: 0;
     }
-    
+
     .todo {
         margin: 0.5rem;
         background: white;
@@ -108,20 +108,20 @@
         align-items: center;
         transition: all 1s ease;
     }
-    
+
     .todo li {
         flex: 2;
     }
-    
+
     .todo-item {
         padding: 0px 8px;
         position: center;
     }
-    
+
     .todo-list {
         background-color: rgb(212, 245, 212);
     }
-    
+
     form {
         position: relative;
         width: 380px;
@@ -129,13 +129,13 @@
         padding: 10px;
         border-top: 1px solid rgba(0, 0, 0, 0.1);
     }
-    
+
     .form i {
         position: absolute;
         font-size: 40px;
         color: rgb(65, 98, 246);
     }
-    
+
     .form input {
         position: absolute;
         left: 50px;
@@ -146,7 +146,7 @@
         font-size: 20px;
         padding-left: 10px;
     }
-    
+
     #date {
         position: absolute;
         bottom: 10px;
@@ -155,7 +155,7 @@
         font-size: 25px;
         font-family: 'Times New Roman', Times, serif;
     }
-    
+
     .delete-btn {
         background: rgb(255, 102, 0);
         color: white;
@@ -164,7 +164,7 @@
         cursor: pointer;
         font-size: 16px;
     }
-    
+
     .check-btn {
         background: rgb(71, 203, 255);
         color: white;
@@ -173,11 +173,11 @@
         cursor: pointer;
         font-size: 16px;
     }
-    
+
     ul {
         list-style-type: none;
     }
-    
+
     ul .list {
         width: 380px;
         height: 45px;
@@ -188,12 +188,12 @@
         padding: 0;
         margin: 0;
     }
-    
+
     .fa-trash,
     .fa-check {
         pointer-events: none;
     }
-    
+
     .completed {
         text-decoration: line-through;
         opacity: 0.5;
